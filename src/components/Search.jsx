@@ -3,7 +3,6 @@ import Line from "./Line";
 import { useState } from "react";
 
 const Search = () => {
-  //   const [string, setString] = useState("");
   const [emoji, setEmoji] = useState("");
 
   return (
@@ -23,7 +22,9 @@ const Search = () => {
           }}
         />
       </header>
-      <Line title={emoji.title} symbol={emoji.symbol} />
+      <main>
+        <Line title={emoji.title} symbol={emoji.symbol} />
+      </main>
     </>
   );
 };

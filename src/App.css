@@ -22,6 +22,7 @@ header input {
 main {
   display: flex;
   justify-content: center;
+  /* background-color: pink; */
 }
 .emoji-container {
   width: 300px;

@@ -1,9 +1,9 @@
 const Line = ({ title, symbol }) => {
   return (
     <div className="emoji-container">
-      <span>${symbol}</span>
+      <span>{symbol}</span>
       <br />
-      <p>${title}</p>
+      <p>{title}</p>
     </div>
   );
 };
