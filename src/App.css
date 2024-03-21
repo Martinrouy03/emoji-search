@@ -1,0 +1,34 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 100px;
+  font-weight: bold;
+  gap: 30px;
+  width: 300px;
+  margin: 40px auto;
+}
+
+header input {
+  /* height: 30px; */
+  padding: 10px;
+  background-color: #f8efef;
+  border: 1px solid #eee0e0;
+  border-radius: 5px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+.emoji-container {
+  width: 300px;
+  display: flex;
+  /* justify-content: center; */
+  gap: 10px;
+  padding: 5px;
+  border: 1px solid #eee0e0;
+  background-color: #fcfbfb;
+}
